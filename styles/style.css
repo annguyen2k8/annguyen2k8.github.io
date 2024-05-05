@@ -1,0 +1,168 @@
+    body {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        background-image: url('../assets/wallpaper.gif');
+            background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+    }
+
+    .profile {
+        background-color    : rgba(0, 0, 0, 0.50);
+        display             : flex;
+        margin-top          : 5%;
+        height              : 500px;
+        width               : 500px;
+        text-align          : center;
+        align-items         : center;
+        flex-direction      : column;
+        border-radius       : 10px;
+        box-shadow          : 5px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    .avatar {
+        margin-top          : -75px;
+        width               : 120px;
+        height              : auto;
+        display             : flex;
+        border-radius       : 10px;
+        box-shadow          : 5px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    .avatar-text {
+        color               : white;
+        font-size           : 150%;
+        font-weight         : bold;
+        font-family         : Roboto Mono;
+    }
+
+    .youtube-text {
+        color: white;
+            font-size: 20px;
+            font-weight: bolder;
+            margin-left: 25px;
+    }
+
+    .youtube-button {
+        margin-top: 15px;
+            height: 70px;
+                width: 360px;
+        cursor: pointer;
+        display: flex;
+            align-items: center;
+            background-color: rgb(255, 25, 25);
+            border-radius: 10px;
+            border-style: none;
+            font-family: Roboto Mono;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);    
+    }
+
+    .youtube-logo {
+        height: 50px;
+        width: auto;
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+    }
+
+    .github-text {
+        color: white;
+            font-size: 20px;
+            font-weight: bolder;
+            margin-left: 25px;
+    }
+
+    .github-button {
+                height: 70px;
+                margin-top: 15px;
+                    width: 360px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background-color: rgb(25, 25, 25);
+        border-radius: 10px;
+        border-style: none;
+        font-family: Roboto Mono;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    .github-logo {
+        height: 50px;
+        width: auto;
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+    }
+
+    .facebook-text {
+        color: white;
+            font-size: 20px;
+            font-weight: bolder;
+            margin-left: 25px;
+    }
+
+    .facebook-button {
+                height: 70px;
+                margin-top: 15px;
+                    width: 360px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background-color: rgb(50, 50, 255);
+        border-radius: 10px;
+        border-style: none; 
+        font-family: Roboto Mono;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    .facebook-logo {
+        height: 50px;
+        width: auto;
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+    }
+
+    .discord-text {
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left: 25px;
+    }
+
+    .discord-button {
+        height: 70px;
+        margin-top: 15px;
+        width: 360px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background-color: rgb(87, 101, 236);
+        border-radius: 10px;
+        border-style: none;
+        font-family: Roboto Mono;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    .discord-logo {
+        height: 50px;
+        width: auto;
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+    }
+
+    .comment-text {
+            color: white;
+            font-size: 20px;
+            font-weight: bolder;
+            margin-left: 25px;
+            font-family: Roboto Mono;
+        }
