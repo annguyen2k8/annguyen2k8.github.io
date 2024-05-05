@@ -15,10 +15,6 @@
         <link rel="icon" href="assets/avatar.webp">
 
         <script>
-            function openNewTab(url) {
-                window.open(url, "_blank");
-            };
-            
             function copyContent(content) {
         navigator.clipboard.writeText(content)
             .then(() => {
@@ -35,19 +31,19 @@
         <div class="profile">
             <img src="assets/avatar.webp" width="100" height="100" class="avatar">
             <div class="avatar-text">ÂnNotFound</div>
-            <button class= "youtube-button" onclick="openNewTab('https:/www.youtube.com/channel/UCIOqWNKcO-22mS9mVXVVj0A')">
+            <button class= "youtube-button" onclick="window.open('https:/www.youtube.com/channel/UCIOqWNKcO-22mS9mVXVVj0A', '_blank')">
                 <img src="assets/youtube-logo.webp" alt="logo-YouTube" class="youtube-logo">
                 <p class="youtube-text">ÂnNotFound's channel</p>
             </button>
-            <button class="facebook-button" onclick="openNewTab('https:/www.facebook.com/profile.php?id=61551391170217')">
+            <button class="facebook-button" onclick="window.open('https:/www.facebook.com/profile.php?id=61551391170217', '_blank')">
                 <img src="assets/facebook-logo.webp" alt="logo-Facebook" class="facebook-logo">
                 <p class="facebook-text">ÂnNotFound's facebook</p>
             </button>
-            <button class="discord-button" onclick="copyContent('annguyen2k8')">
+            <button class="discord-button" onclick="window.open('annguyen2k8')">
                 <img src="assets/discord-logo.webp" alt="logo-Discord" class="discord-logo">
                 <p class="discord-text">ÂnNotFound's discord</p>
             </button>
-            <button class="github-button" onclick="openNewTab('https:/github.com/annguyen2k8')">
+            <button class="github-button" onclick="window.open('https:/github.com/annguyen2k8', '_blank')">
                 <img src="assets/github-logo.webp" alt="logo-Github" class="github-logo">
                 <p class="github-text">ÂnNotFound's github</p>
             </button>
